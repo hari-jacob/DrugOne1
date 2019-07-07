@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="horizontal"
+    tools:context=".FragmentAccount">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/acc1t1"
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:textSize="25dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/netred"
+        android:background="@drawable/bgaccount"
+        />
+
+    <EditText
+        android:textCursorDrawable="@drawable/textcursor"
+        android:id="@+id/acc1e1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textShortMessage|textAutoCorrect|textAutoComplete"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedit"
+        android:hint="User Name"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    />
+    <EditText
+        android:textCursorDrawable="@drawable/textcursor"
+        android:id="@+id/acc1e2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedit"
+        android:hint="Password"
+        android:password="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="115dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/acc1b1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/button"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedit"
+        android:layout_marginTop="260dp"/>
+
+    <TextView
+        android:id="@+id/acc1t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Or"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+    <EditText
+        android:textCursorDrawable="@drawable/textcursor"
+        android:id="@+id/acc1e3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedit"
+        android:hint="User Name"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="310dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    />
+
+    <EditText
+        android:textCursorDrawable="@drawable/textcursor"
+        android:inputType="textAutoComplete|textAutoCorrect|textShortMessage"
+        android:id="@+id/acc1e4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedit"
+        android:hint="Enter Password"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="385dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:textCursorDrawable="@drawable/textcursor"
+        android:id="@+id/acc1e5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedit"
+        android:hint="Confirm Password"
+        android:password="true"
+        android:padding="10dp"
+        android:layout_marginTop="455dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/acc1b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button"/>
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#232323"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/dialog_name_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Name"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="90dp"
+            />
+        <TextView
+            android:id="@+id/dialog_details_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Medicine Details"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <!--<TextView-->
+            <!--android:id="@+id/dialog_details_med2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/netred"-->
+            <!--android:text="Contain calcium carbonate which is a mineral that is required for the formation of bones and maintaining them."-->
+            <!--android:textColor="@color/white"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:drawablePadding="20dp"-->
+            <!--android:textAlignment="textStart"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:padding="10dp"-->
+            <!--android:drawableLeft="@drawable/ic_local_hospital_black_24dp"-->
+            <!--/>-->
+
+        <Button
+        android:id="@+id/dialog_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/netred"
+        android:text="Add To Cart"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="20dp"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_add_shopping_cart_black_24dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+        />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/dialog_img"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

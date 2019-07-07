@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#B20710</color>
+    <color name="netred">#B20710</color>
+    <color name="litgrey">#D3221F1F</color>
+    <color name="black">#202020</color>
+    <color name="colorPrimaryDark">#D3221F1F</color>
+    <color name="colorAccent">#D81B60</color>
+</resources>

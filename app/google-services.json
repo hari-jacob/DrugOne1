@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "555467292897",
+    "firebase_url": "https://drugone1-ed1d8.firebaseio.com",
+    "project_id": "drugone1-ed1d8",
+    "storage_bucket": "drugone1-ed1d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555467292897:android:165ef0e2e559e1c4",
+        "android_client_info": {
+          "package_name": "com.example.drugone1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555467292897-ojcmaqru9enlpgmeofaaqrl05jfs7ipr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drugone1",
+            "certificate_hash": "ffefd969cad0d2e72b2390731faf9797e5f2fa12"
+          }
+        },
+        {
+          "client_id": "555467292897-9fj409ptp6dd4vj3q5ntn5umh3j7gdli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaNooyRkKhK0lkdK48rq0RGTNZRTAUVEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555467292897-9fj409ptp6dd4vj3q5ntn5umh3j7gdli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
